@@ -5,6 +5,44 @@
 
 ---
 
+## ⚠️ 免责声明 / DISCLAIMER
+
+> **本工具仅用于学习交流、个人研究与技术学习，无任何不良引导。**
+> **严禁将本工具用于任何违法、违规、侵权或未获授权的用途。**
+>
+> 若他人使用本工具从事任何违法、违规或侵权行为，**均属使用者个人行为，与作者无关**：
+> 作者不知情、未参与、未获利，**不承担任何直接、间接、连带或替代责任**，
+> 亦不承担由此产生的任何数据丢失、账号封禁、法律追责或其他后果。
+> **使用本工具的全部风险与后果，由使用者自行承担。**
+>
+> 请自行确认所在地法律法规及目标软件服务条款的约束。
+> **不同意以上任何一条，请立即停止使用并删除本工具及其全部副本。**
+> 本工具按"现状"（AS IS）提供，不提供任何明示或默示担保。
+
+**English**
+
+> This tool is provided **for study, exchange and personal research only**, with no
+> intent to encourage any wrongdoing. **Any use of this tool for illegal,
+> non-compliant, infringing or unauthorized purposes is strictly forbidden.**
+>
+> If a third party uses this tool to commit any illegal, non-compliant or infringing
+> act, that is **the user's own conduct and has nothing to do with the author**: the
+> author is unaware of it, took no part in it, gained nothing from it, and **accepts no
+> direct, indirect, joint or vicarious liability**, including for any data loss,
+> account suspension, legal action or other consequence. **All risk and all
+> consequences are borne solely by the user.**
+>
+> You are responsible for confirming what your local laws and the target software's
+> terms of service allow. **If you disagree with any of the above, stop using this tool
+> immediately and delete it together with all copies.** The tool is provided "AS IS",
+> without warranty of any kind.
+
+> 注：以上声明**同时内置于 `WKBD_rev1.0.exe`**，每次运行都会在控制台打印出来。
+> Note: the same notice is **embedded inside `WKBD_rev1.0.exe`** and is printed to the
+> console on every run.
+
+---
+
 ## 这是什么 / What is this
 
 WKBD rev1.0 是针对 **WorkBuddy** 的本地化配置工具，通过修改本地安装目录下的提示词靶点与运行时配置，让客户端按操作者自定义的人格与策略运行。全部改动**仅发生在你本机**，不涉及任何联网上传。
@@ -93,8 +131,9 @@ WKBD_rev1.0_ASH注入成功
 
 | 文件 | 说明 |
 |---|---|
-| `WKBD_rev1.0.exe` | 主程序（单文件，无需运行时） |
+| `WKBD_rev1.0.exe` | 主程序（单文件，无需运行时；**内置免责声明**） |
 | `persona.md` | 共用人格文件，可自由编辑 |
+| `免责声明.txt` | 免责声明全文（中文 + English），随包分发 |
 | `破甲日志.txt` | 运行日志，记录每次改动了哪些文件 |
 | `LICENSE` | MIT 许可证（上游 popopo） |
 | `使用说明.md` | 详细中文说明 |
@@ -111,12 +150,11 @@ WKBD_rev1.0.exe --revert
 
 ---
 
-## 许可与免责 / License & Disclaimer
+## 许可 / License
 
 本项目基于 **popopo**（MIT 许可证）修改，原版权声明见随附 `LICENSE` 文件。
 
-**本工具仅用于学习交流与个人研究。** 若他人使用本工具从事任何违法、违规或侵权行为，与作者无关，全部后果由使用者自行承担。请遵守所在地法律法规与目标软件的服务条款。
+This project is a derivative of **popopo** (MIT License); see the bundled `LICENSE`
+file for the original copyright notice.
 
-This project is a derivative of **popopo** (MIT License); see the bundled `LICENSE` file for the original copyright notice.
-
-**This tool is provided for study, exchange and personal research only.** The author is not responsible for any illegal, non-compliant or infringing use by third parties; all consequences are borne by the user. Please comply with your local laws and the target software's terms of service.
+使用本工具即表示你已阅读并同意上文的免责声明；不再使用时，请连同全部副本一并删除。
