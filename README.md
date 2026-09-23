@@ -137,6 +137,8 @@ WKBD_rev1.0_ASH注入成功
 | `破甲日志.txt` | 运行日志，记录每次改动了哪些文件 |
 | `LICENSE` | MIT 许可证（上游 popopo） |
 | `使用说明.md` | 详细中文说明 |
+| `README.md` | 本文件 |
+| `.gitattributes` | 仓库约定：行尾统一为 LF，`.exe` 等二进制显式声明 |
 
 ---
 
