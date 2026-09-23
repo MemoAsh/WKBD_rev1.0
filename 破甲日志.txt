@@ -1,0 +1,40 @@
+[2026-09-22 17:42:43] [wb] 人格来源：persona.md（persona.md）
+[2026-09-22 17:42:43] [wb] 安装目录：D:\WorkBuddy
+[2026-09-22 17:42:43] [wb]   云记忆：已注入 cad0c41a-081c-46f2-8d2c-37a53befefdc_memory.md（4596 字，Version 999999，已设只读）
+[2026-09-22 17:42:43] [wb]   云记忆已就绪：WorkBuddy 每一轮都会自动注入这段（4596 字 / 上限 10000）
+[2026-09-22 17:42:43] [wb] 已修复 | <data>\cache\acc-product-config-v3.json
+[2026-09-22 17:42:43] [wb] 已修复 | <data>\plugins\cache\workbuddy-builtin\welcomemode-code\5.5.6-wb.38337834.g5f969292.h7826dc9400fd\prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <data>\plugins\cache\workbuddy-builtin\welcomemode-design\5.5.6-wb.38337834.g5f969292.h7826dc9400fd\prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <data>\plugins\cache\workbuddy-builtin\welcomemode-work\5.5.6-wb.38337834.g5f969292.h7826dc9400fd\prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\cli\product.json
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\welcomemode\code\prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\welcomemode\design\prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\plugins\workbuddy-builtin\welcomemode\work\prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-ask-code-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-ask-coding-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-ask-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-craft-code-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-craft-coding-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-craft-design-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-expert-code-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-expert-coding-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-expert-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已修复 | <install>\resources\app.asar.unpacked\resources\templates\workbuddy-prompt.tpl
+[2026-09-22 17:42:43] [wb] 已清除运行时缓存（下次启动从已破甲的 product.json 重建）
+[2026-09-22 17:42:43] [wb] 发现 149 份过期会话快照（75997.2 KB）—— **未删除**（不在备份范围内，删了还原不回来）。要清理请加 --clean-spill（只清过期的）或 --purge-spill（清全部）
+[2026-09-22 17:42:43] [wb]   写入未生效（回读不一致）: <data>\cache\acc-product-config-v3.json
+[2026-09-22 17:42:43] [wb] 复查：1 处未生效
+[2026-09-22 17:42:43] [wb] 小结 | 修复 18 / 跳过 665 / 错误 1 / 闸门 0
+[2026-09-22 17:42:43] [wb] 请完全退出 WorkBuddy（含右下角托盘）再重开，改动才生效。
+[2026-09-22 17:42:43] [wb] 自证就绪（C:\Users\PC\.workbuddy\managed-prompts\pojia-yijiantong\selfcheck.txt）
+[2026-09-22 17:42:43] [wb]   自证：新会话里单独发「破甲自检」，应回复：WKBD_rev1.0_ASH注入成功
+[2026-09-22 17:43:14] [wb] 人格来源：persona.md（persona.md）
+[2026-09-22 17:43:14] [wb] 安装目录：D:\WorkBuddy
+[2026-09-22 17:43:14] [wb]   云记忆：已注入 cad0c41a-081c-46f2-8d2c-37a53befefdc_memory.md（4596 字，Version 999999，已设只读）
+[2026-09-22 17:43:14] [wb]   云记忆已就绪：WorkBuddy 每一轮都会自动注入这段（4596 字 / 上限 10000）
+[2026-09-22 17:43:15] [wb] 发现 149 份过期会话快照（75997.2 KB）—— **未删除**（不在备份范围内，删了还原不回来）。要清理请加 --clean-spill（只清过期的）或 --purge-spill（清全部）
+[2026-09-22 17:43:15] [wb] 复查：全部就绪
+[2026-09-22 17:43:15] [wb] 小结 | 修复 0 / 跳过 682 / 错误 0 / 闸门 0
+[2026-09-22 17:43:15] [wb] 请完全退出 WorkBuddy（含右下角托盘）再重开，改动才生效。
+[2026-09-22 17:43:15] [wb] 自证就绪（C:\Users\PC\.workbuddy\managed-prompts\pojia-yijiantong\selfcheck.txt）
+[2026-09-22 17:43:15] [wb]   自证：新会话里单独发「破甲自检」，应回复：WKBD_rev1.0_ASH注入成功
