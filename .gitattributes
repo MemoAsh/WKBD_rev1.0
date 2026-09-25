@@ -1,33 +1,11 @@
-# ============================================================
-#  .gitattributes — 统一换行符 / 显式声明二进制文件
-#  规则依据：GitHub 官方推荐 * text=auto；本仓库进一步锁定
-#  为 eol=lf，保证 Windows / macOS / Linux 协作时不出现整文件 diff。
-#  属性是「后面的规则覆盖前面的」，所以 binary 声明必须写在末尾。
-# ============================================================
-
-# 默认：自动判定是否文本；是文本则以 LF 存储并检出
+# 统一按 LF 存储与检出 —— 保证仓库里的字节与开发者工作区完全一致。
+# Store and check out everything as LF so the repository bytes match the working tree.
 * text=auto eol=lf
 
-# ---- 二进制：禁止任何换行符转换（防止 .exe 被当文本转换而损坏）----
-*.exe   binary
-*.dll   binary
-*.pyd   binary
-*.rar   binary
-*.zip   binary
-*.7z    binary
-*.bin   binary
-*.ico   binary
-*.png   binary
-*.jpg   binary
-*.jpeg  binary
-*.gif   binary
-*.pdf   binary
-
-# ---- 文本：显式声明，方便新人一眼看懂仓库约定 ----
-*.md     text eol=lf
-*.txt    text eol=lf
-LICENSE  text eol=lf
-*.py     text eol=lf
-*.json   text eol=lf
-*.yml    text eol=lf
-*.yaml   text eol=lf
+# 以下规则顺序在后，覆盖上面的通配；声明为不转换，保持原始字节。
+# Rules below come AFTER the catch-all (later rules win) and disable conversion.
+*.bat -text
+*.exe binary
+*.zip binary
+*.png binary
+*.ico binary
